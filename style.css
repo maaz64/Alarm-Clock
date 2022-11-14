@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c9c9c9;
+}
+
+h1{
+    text-align: center;
+}
+
+#clockContainer{
+    position: relative;   
+    margin: auto;
+    height: 40vw;
+    /* to make the height and width responsive */
+    width:40vw;
+    background: url(clock-face.png) no-repeat;
+    background-size: 100%;
+}
+
+.setAlarm{
+    text-align: -webkit-center;
+}
+#hour,#minute,#second{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.8%;
+    height:25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+.audio{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vw;
+    /* to make the height and width responsive */
+    width: 40vw;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; 
+    border: 3px solid #3b21ad;
+    padding: 10px;
+}
+
+p{
+    margin-top: lem;
+    margin-bottom: lem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+label{
+    font-size: 28px;
+}
+
+#party{
+    font-size: 28px;
+    color: #0320fc;
+}
+
+form{
+    margin: 0 auto;
+    width: 800px;
+}
+
+#alarmOption button{
+    font-size: 28px;
+}
+
+#alarmButton,#alarmTime{
+    font-size: 28px;  
+}
